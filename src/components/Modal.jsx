@@ -18,6 +18,9 @@ class Modal extends Component {
     }
   };
 
+   startTimer = () => {
+  };
+
   componentDidMount() {
     document.addEventListener('keydown', this.modalKeyClose);
     this.startTimer();
