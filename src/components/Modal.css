@@ -1,0 +1,50 @@
+body {
+    background-color: #4a77ff;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-window {
+  background-image: url(https://img.pikbest.com/wp/202346/geometric-website-backgrounds-abstract-background-in-yellow-perfect-for-business-cards-and-banners-3d-render_9621033.jpg!w700wp);
+  padding: 20px 30px;
+  border-radius: 8px;
+  width: 320px;
+  text-align: center;
+}
+
+
+
+.modal-window button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #4a77ff;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.modal-window button:hover {
+  background-color: #335be6;
+}
+
+.App h2 {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #fbda03;
+  letter-spacing: 0.5px;
+}

@@ -15,7 +15,11 @@ class App extends Component {
       <div className="App">
         <h2>Натисніть на кнопку для відкриття модального вікна</h2>
         <button onClick={this.isModalOpen}>Відкрити модалку</button>
-        {this.state.isOpen && <Modal />}
+
+        <Modal
+          isOpen={this.state.isOpen}
+          onClose={this.isModalClose}
+        />
       </div>
     );
   }
